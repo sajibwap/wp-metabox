@@ -1,0 +1,16 @@
+.fields_container {
+    display: flex;
+    justify-content: start;
+    padding: 7px 0;
+}
+
+.fields_container > label {
+    flex-basis: 100px;
+    font-weight: bold;
+}
+.fields_container img {
+	margin: 1px;
+}
+/*.color_container {
+	background-color: #ddd;
+}*/
