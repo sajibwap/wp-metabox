@@ -34,7 +34,7 @@ var frame, gallry;
 				multiple:false
 			});
 
-			frame.on("select",function(){
+			frame.on("select", function(){
 				var attachment = frame.state().get('selection').first().toJSON();
 				$("#omb_img_id").val(attachment.id);
 				$("#omb_img_url").val(attachment.url);
